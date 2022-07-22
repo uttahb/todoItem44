@@ -7,7 +7,7 @@ export const TodoItem44 = ({ id, item, refetch }) => {
     e.preventDefault()
     const idToRemove = e.target.value.trim()
 
-    fetch(`${env.BLOCK_FUNCTION_URL}/removeTodo`, {
+    fetch(`${env.BLOCK_FUNCTION_URL}/removeTodo44`, {
       method: 'delete',
       body: JSON.stringify({ id: idToRemove }),
     })
